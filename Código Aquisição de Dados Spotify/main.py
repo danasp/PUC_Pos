@@ -2,13 +2,9 @@
 
 import datetime
 import os
-from datetime import date
-from os import name
 import spotipy
 import json
 import csv
-import spotipy.util as util
-from spotipy.oauth2 import SpotifyOAuth
 from spotipy.oauth2 import SpotifyClientCredentials
 
 # Arquivo JSON com as credenciais da API do Spotify
